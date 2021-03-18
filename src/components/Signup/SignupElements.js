@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom';
 
 export const Container =styled.div`
-min-height:692px;
-position:fixed;
+min-height:699px;
+position:relative;
 bottom:0;
 left:0;
 right:0;
@@ -21,6 +21,7 @@ export const FormWrap =styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin-top:30px;
 
     @meida (max-width:400px){
         height:80%;
@@ -95,7 +96,7 @@ export const FormButton =styled.a`
     font-size:20px;
     cursor:pointer;
     text-align:center;
-    text-decoration:none; 
+    text-decoration:none;   
 `
 
 export const Text =styled.span`

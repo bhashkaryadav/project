@@ -109,6 +109,7 @@ export const NavBtnLink = styled(LinkR)`
     cursor:pointer;
     transition:all 0.2s ease-in-out;
     text-decoration:none;
+    margin-right:20px;
 
     &:hover{
         transition:all o.2s ease-in-out;
