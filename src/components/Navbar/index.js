@@ -11,16 +11,25 @@ import {Nav,
     NavBtnLink
 } from './NavbarElements'
 
+import {useAuth0 } from '@auth0/auth0-react'
+
 const Navbar = ({ toggle }) => {
+    const { loginWithRedirect } =useAuth0();
+    const {logout} =useAuth0();
+    
+  
     return (
      <>
+    
      <Nav>
          <NavbarContainer>
+        
            <NavLogo to = '/'>StocksPredictor</NavLogo > 
            <MobileIcon onClick ={toggle}>
                 <FaBars />
             </MobileIcon> 
             <NavMenu>
+                
                 <NavItem>
                    <NavLinks to ="about" >About</NavLinks>
                 </NavItem>
@@ -29,12 +38,16 @@ const Navbar = ({ toggle }) => {
                 </NavItem>
                 <NavItem>
                    <NavLinks to ="services" >Services</NavLinks>
+               
                 </NavItem>
                 
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to ="/signup" >Sign Up</NavBtnLink>
-                <NavBtnLink to ="/signin">Sign In</NavBtnLink>
+             <NavBtnLink onClick ={()=> logout()} >LogOut</NavBtnLink>
+
+            <NavBtnLink  onClick={()=>loginWithRedirect()}  >Sign In</NavBtnLink>
+                
+              
             </NavBtn>
          </NavbarContainer>
      </Nav>

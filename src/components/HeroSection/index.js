@@ -24,7 +24,7 @@ const  HeroSection = () => {
     return (
         <HeroContainer >
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type ='video/mp4' /> 
+                <VideoBg   muted src={Video} type ='video/mp4' /> 
             </HeroBg>
             <HeroContent>
                 <HeroH1>Stock Analysis For Beginners made Easy</HeroH1>
@@ -40,7 +40,7 @@ const  HeroSection = () => {
                     dark="true"
                     >
                     
-                        Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                      SignIn to Get started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>  
             </HeroContent>
