@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    id: 'about',
+    id: '',
     lightBg:true,
     lightText:false,
     lightTextDesc:true,
@@ -7,16 +7,14 @@ export const homeObjOne = {
     headLine:'Technical Analysis is at the other end of the stock analysis spectrum. It uses charts instead of annual reports and charts and patterns instead of arriving at an intrinsic value. ',
     description: 'Stock market technical analysis does use the market price of the stock to predict future patterns and analyze historical ones but does not concern itself with analyzing factors affecting the market price. It studies trends in price, volumes, and moving averages over a period of time.',
     buttonLabel:'SignIn Know More',
-    imgStart:false,
-    img:'Icon2',
-    alt:'man',
+   
     dark :true,
     primary:true,
     darkText: false,
 };
 
 export const homeObjTwo = {
-    id: 'services',
+    id: '',
     lightBg:false,
     lightText:true,
     lightTextDesc:false,
@@ -77,7 +75,8 @@ export const homeObjFive = {
     headLine:'Open an overseas trading account if you have the time and expertise to analyze the US market and economy and make informed decisions.',
 
     description: 'pay him or you die with load of money from companies.',
-    buttonLabel:'SignIn For Start',
+    buttonLabel:'Know More ',
+    href:"https://groww.in/p/stock-market-basics/",
     imgStart:false,
     img:require('../../images/svg-4.svg'),
     alt:'man',

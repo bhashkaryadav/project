@@ -33,11 +33,12 @@ const  HeroSection = () => {
                 get started with your journey as a technical analyst
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to ="/signup" 
+                    <Button
                     onMouseEnter= {onHover} 
                     onMouseLeave={onHover}
                     primary="true"
                     dark="true"
+                    href="https://groww.in/p/stock-market-basics/"
                     >
                     
                       SignIn to Get started {hover ? <ArrowForward /> : <ArrowRight />}

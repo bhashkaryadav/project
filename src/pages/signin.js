@@ -5,10 +5,12 @@ import SignIn from '../components/Signin'
 const SigninPage = () => {
     return (
         <>
-        <Navbar/>
-<SignIn></SignIn>
+
+            <SignIn></SignIn>
+
+
         </>
-       
+
     )
 }
 

@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
      <Nav>
          <NavbarContainer>
         
-           <NavLogo to = '/'>StocksPredictor</NavLogo > 
+           <NavLogo to = '/'>Stock Analytics</NavLogo > 
            <MobileIcon onClick ={toggle}>
                 <FaBars />
             </MobileIcon> 
@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
                 
             </NavMenu>
             <NavBtn>
-             <NavBtnLink onClick ={()=> logout()} >LogOut</NavBtnLink>
+            
 
             <NavBtnLink  onClick={()=>loginWithRedirect()}  >Sign In</NavBtnLink>
                 

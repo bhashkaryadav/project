@@ -10,7 +10,7 @@ ReactDOM.render(
   <Auth0Provider
   domain={domain}
   clientId={clientId}
-  redirectUri="https://stock-market-analysis-cse445.herokuapp.com/">
+  redirectUri="https://project-445.herokuapp.com/signin">
    
     <App />
   </Auth0Provider>,

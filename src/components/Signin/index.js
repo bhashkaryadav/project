@@ -1,29 +1,57 @@
 import React from 'react'
-import { Container, Form, FormButton,Icon, FormContent, FormH1, FormInput, FormLabel, FormWrap, Text } from './SigninElements'
+import { useAuth0 } from '@auth0/auth0-react'
+import { Container, Form, FormButton, Icon, FormContent, FormH1, FormInput, FormLabel, FormWrap, Text, Nav, NavbarContainer, NavLogo, NavBtn, NavBtnLink } from './SigninElements'
+import {HeroBg,VideoBg, } from '../HeroSection/HeroElements'
+import Video from '../../videos/video2.mp4';
 
 
 const SignIn = () => {
-    
+    const { logout } = useAuth0();
     return (
         <>
-        <Container>
-            <FormWrap>
-                <Icon to ="/">StockAnalysis</Icon>
-                <FormContent>
-                    <Form action="#">
-                      <FormH1>Sign In to Analyse stocks</FormH1>
-                        <FormLabel  htmlFor='for'>Email</FormLabel>
-                        <FormInput type='email' required></FormInput>
-                        <FormLabel >Password</FormLabel>
-                        <FormInput type='password'  required></FormInput>
-                        <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target= "_blank"> Continue</FormButton>
-                        <Text>Forget password</Text>
-                    </Form>
-                </FormContent>
-            </FormWrap>
-        </Container>   
+            <Nav>
+                <NavbarContainer>
+                    <NavLogo to='/'>Stock Analytics</NavLogo >
+                    <NavBtn>
+                        <NavBtnLink onClick={() => logout()} >LogOut</NavBtnLink>
+                    </NavBtn>
+                </NavbarContainer>
+            </Nav>
+
+            <Container>
+            <HeroBg>
+                <VideoBg   muted src={Video} type ='video/mp4' /> 
+            </HeroBg>
+                <FormWrap>
+                    <FormContent>
+                        <Form >
+                            <FormH1> Various NSE  Listed Companies And Their Data</FormH1>
+                          
+                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Home</FormButton>
+                        </Form>
+                    </FormContent>
+                    <FormContent>
+                        <Form >
+                            <FormH1>Visualise Data on various market factors</FormH1>
+                        
+                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Data Analysis</FormButton>
+                        </Form>
+                    </FormContent>
+                    <FormContent>
+                        <Form >
+                            <FormH1>Check the Prediction using No. of Models</FormH1>
+                          
+                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Prediction</FormButton>
+                        </Form>
+                    </FormContent>
+                </FormWrap>
+            </Container>
+            
+              
+            
+
         </>
     )
 }
 
-export default SignIn ;
+export default SignIn;

@@ -1,8 +1,5 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import Icon1 from '../../images/svg-1.svg'
-import Icon2 from '../../images/svg-2.svg'
-import Icon3 from '../../images/svg-4.svg'
 
 
 import {
@@ -29,7 +26,9 @@ const InfoSection = ({lightBg,
      darkText,
      description,
      buttonLabel,
+     target,
      img,
+     href,
      alt,
     primary,
     dark,
@@ -45,25 +44,21 @@ const InfoSection = ({lightBg,
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <Button 
                                     smooth={true}
                                     duration={500}
                                     spy={true}
-                                    exact="true"
+                                    target= "_blank"
                                     offset={-80}
                                     primary={primary ? 1:0}
                                     dark={dark ? 1:0}
                                     dark2={dark2 ? 1:0}
-                                    >{buttonLabel}</Button>
+                                    href="https://groww.in/p/stock-market-basics/"
+                                    >{buttonLabel} </Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
-                        <Column2>
-                            <ImgWrap>
-
-                                <Img src={img}alt={alt} ></Img>
-                            </ImgWrap>
-                        </Column2>
+                       
                 </InfoRow>
              
             </InfoWrapper>

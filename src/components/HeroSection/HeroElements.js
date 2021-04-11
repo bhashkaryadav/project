@@ -104,6 +104,13 @@ export const HeroBtnWrapper =styled.div`
     align-items:center;
    
 `
+export const Button =styled.a`
+    margin-top:32px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+`
 
 export const ArrowForward =styled(MdArrowForward)`
     margin-left:8px;

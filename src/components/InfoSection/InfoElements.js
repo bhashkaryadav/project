@@ -84,7 +84,7 @@ export const Subtitle =styled.p`
    color: ${({ darkText}) =>(darkText ? '#010606' : '#47BA93')};
 `
 
-export const BtnWrap =styled.div`
+export const BtnWrap =styled.a`
     display:flex;
     justify-content:flex-start;
  
