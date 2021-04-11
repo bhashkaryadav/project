@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText:false,
     lightTextDesc:true,
     topLine:'Technical Analysis ',
-    headLine:'Technical Analysis is at the other end of the stock analysis spectrum. It uses charts instead of annual reports and charts and patterns instead of arriving at an intrinsic value. ',
+    headLine:'Technical Analysis is at the other end of the stock analysis spectrum. ',
     description: 'Stock market technical analysis does use the market price of the stock to predict future patterns and analyze historical ones but does not concern itself with analyzing factors affecting the market price. It studies trends in price, volumes, and moving averages over a period of time.',
     buttonLabel:' Know More',
    
