@@ -74,10 +74,7 @@ export const homeObjFive = {
     headLine:'Open an overseas trading account if you have the time and expertise to analyze the US market and economy and make informed decisions.',
     headLine:'Open an overseas trading account if you have the time and expertise to analyze the US market and economy and make informed decisions.',
 
-    description: 'There are two distinct ways to invest in us stocks from india
-
-   Direct investment in stocks
-   Indirect investment in stocks via mutual funds or ETFs',
+    description: 'There are two distinct ways to invest in us stocks from india a) Direct investment in stocks b) Indirect investment in stocks via mutual funds or ETFs',
    
     buttonLabel:'Know More ',
     

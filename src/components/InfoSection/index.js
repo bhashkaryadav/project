@@ -26,10 +26,7 @@ const InfoSection = ({lightBg,
      darkText,
      description,
      buttonLabel,
-     target,
-     img,
-     href,
-     alt,
+    
     primary,
     dark,
     dark2}) => {
