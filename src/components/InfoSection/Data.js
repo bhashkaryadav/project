@@ -6,7 +6,7 @@ export const homeObjOne = {
     topLine:'Technical Analysis ',
     headLine:'Technical Analysis is at the other end of the stock analysis spectrum. It uses charts instead of annual reports and charts and patterns instead of arriving at an intrinsic value. ',
     description: 'Stock market technical analysis does use the market price of the stock to predict future patterns and analyze historical ones but does not concern itself with analyzing factors affecting the market price. It studies trends in price, volumes, and moving averages over a period of time.',
-    buttonLabel:'SignIn Know More',
+    buttonLabel:' Know More',
    
     dark :true,
     primary:true,
@@ -22,10 +22,10 @@ export const homeObjTwo = {
     headLine:'Direct investment in stocks  Indirect investment in stocks via mutual funds or ETFs',
     
     description: 'Many domestic brokers have tie-ups with stockbrokers in the US. They act as intermediaries and execute your trades. You can open an overseas trading account with any such broker. You might have to submit a set of documents to open this account. ',
-    buttonLabel:'SignIn To know More',
-    imgStart:true,
-    img:require('../../images/svg-5.svg'),
-    alt:'goat',
+    buttonLabel:' know More',
+    
+  
+  
     dark :true,
     primary:true,
     darkText: false,
@@ -37,12 +37,12 @@ export const homeObjThree = {
     lightText:false,
     lightTextDesc:true,
     topLine:'Broker ',
-    headLine:'A person or middleman owrking between the market and the consumer on ',
-    description: 'pay him or you die with load of money from companies.',
-    buttonLabel:' SignIn to Find One ',
-    imgStart:false,
-    img:require('../../images/svg-4.svg'),
-    alt:'man',
+    headLine:'A person or middleman working between the market and the consumer ',
+    description: 'Can be a person of institution who allows you to open demat and trading account with them.',
+    buttonLabel:' Know More ',
+    
+  
+    
     dark :true,
     primary:true,
     darkText: false,
@@ -53,13 +53,13 @@ export const homeObjFour= {
     lightBg:false,
     lightText:true,
     lightTextDesc:false,
-    topLine:'Broker ',
-    headLine:'A person or middleman owrking between the market and the consumer on ',
-    description: 'You may die now load of money from companies.',
-    buttonLabel:'SignIn first',
-    imgStart:true,
-    img:require('../../images/svg-2.svg'),
-    alt:'dragon',
+    topLine:'Stock Market Index',
+    headLine:'Sensex and Nifty are the two most important stock market Indices in India. ',
+    description: 'To be able to trade(buy and sell) these securities, they need to be listed on the stock exchanges first and the Securities and Exchange Board of India (Sebi), our market regulator, oversees such activities..',
+    buttonLabel:'Know More',
+  
+    
+   
     dark :true,
     primary:true,
     darkText: false,
@@ -74,12 +74,16 @@ export const homeObjFive = {
     headLine:'Open an overseas trading account if you have the time and expertise to analyze the US market and economy and make informed decisions.',
     headLine:'Open an overseas trading account if you have the time and expertise to analyze the US market and economy and make informed decisions.',
 
-    description: 'pay him or you die with load of money from companies.',
+    description: 'There are two distinct ways to invest in us stocks from india
+
+   Direct investment in stocks
+   Indirect investment in stocks via mutual funds or ETFs',
+   
     buttonLabel:'Know More ',
-    href:"https://groww.in/p/stock-market-basics/",
-    imgStart:false,
-    img:require('../../images/svg-4.svg'),
-    alt:'man',
+    
+    
+   
+
     dark :true,
     primary:true,
     darkText: false,
