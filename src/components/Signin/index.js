@@ -27,21 +27,21 @@ const SignIn = () => {
                         <Form >
                             <FormH1> Various NSE  Listed Companies And Their Data</FormH1>
                           
-                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Home</FormButton>
+                            <FormButton type='submit' href="https://share.streamlit.io/lakshya-ag/streamlit-dashboard/main/home.py" target="_blank"> Home</FormButton>
                         </Form>
                     </FormContent>
                     <FormContent>
                         <Form >
                             <FormH1>Visualise Data on various market factors</FormH1>
                         
-                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Data Analysis</FormButton>
+                            <FormButton type='submit' href="https://share.streamlit.io/lakshya-ag/streamlit-dashboard/main/data_analysis.py" target="_blank"> Data Analysis</FormButton>
                         </Form>
                     </FormContent>
                     <FormContent>
                         <Form >
                             <FormH1>Check the Prediction using No. of Models</FormH1>
                           
-                            <FormButton type='submit' href="https://stock-market-analysis-cse445.herokuapp.com/" target="_blank"> Prediction</FormButton>
+                            <FormButton type='submit' href="https://share.streamlit.io/lakshya-ag/streamlit-dashboard/main/prediction.py" target="_blank"> Prediction</FormButton>
                         </Form>
                     </FormContent>
                 </FormWrap>
