@@ -41,7 +41,7 @@ const  HeroSection = () => {
                     href="https://groww.in/p/stock-market-basics/"
                     >
                     
-                      SignIn to Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                       Know More About Stock Market {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>  
             </HeroContent>
