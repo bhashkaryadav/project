@@ -50,7 +50,7 @@ const InfoSection = ({lightBg,
                                     primary={primary ? 1:0}
                                     dark={dark ? 1:0}
                                     dark2={dark2 ? 1:0}
-                                    href="https://groww.in/p/stock-market-basics/"
+                                    href="https://groww.in/p/investment-basics/"
                                     >{buttonLabel} </Button>
                                 </BtnWrap>
                             </TextWrapper>
